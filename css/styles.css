@@ -29,7 +29,7 @@ body::after{
   width: 100%;
   height: 100%;
   content: "";
-  background: url("img/sky.jpeg");
+  background: url("../img/sky.jpeg");
   position: absolute;
   top: 0;
   left: 0;
