@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+ <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Online Travel</h1>
+        <p class="welcome-header__text">
+            if you have a Account, log in with your email or phone number.
+        </p>
+    </header>
+
+    <div class="login-box">    
+      <form>
+        <div class="user-box">
+        <input type="text" required="">
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" required="">
+        <label>Password</label>
+      </div>
+        <a href="/friends.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Log In
+        </a>
+        <!-- <a href="#">Find Kokoa Account or Password</a> -->
+      </form>
+    </div>
+
+
+    <div id="no-mobile">
+      <span>Your screen is too big 😭</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3192a0d6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 스크립트는 항상 마지막에 있어야한다.(body tag 닫기 직전) -->
+  </body>
+</html>
